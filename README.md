@@ -32,11 +32,6 @@ This project analyzes pizza sales data using **MySQL**, providing insights on sa
 - Cumulative revenue over time.
 - Top 3 pizzas by revenue for each category.
 
-## 🚀 How to Run
-1. Import `data/pizza_sales_sample_data.sql` into your MySQL server.
-2. Run the queries in the `queries/` folder in your SQL editor.
-3. Analyze results and visualize them as needed.
-
 ## 📊 Key Insights
 - Pepperoni Large was the top-selling pizza by quantity.
 - Most orders were placed between 6 PM - 8 PM.
