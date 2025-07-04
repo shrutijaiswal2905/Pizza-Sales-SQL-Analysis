@@ -6,16 +6,12 @@
 1️⃣ Retrieve the total number of orders placed
 ----------------------------------------------------- */
 
--- 📸 Screenshot: ../screenshots/basic_query_1_total_orders.png
-
 SELECT COUNT(order_id) AS total_orders
 FROM orders;
 
 /* ---------------------------------------------------
 2️⃣ Calculate the total revenue generated from pizza sales
 ----------------------------------------------------- */
-
--- 📸 Screenshot: ../screenshots/basic_query_2_total_revenue.png
 
 SELECT 
     ROUND(SUM(od.quantity * p.price), 2) AS total_revenue
@@ -26,8 +22,6 @@ FROM
 /* ---------------------------------------------------
 3️⃣ Identify the highest-priced pizza
 ----------------------------------------------------- */
-
--- 📸 Screenshot: ../screenshots/basic_query_3_highest_priced_pizza.png
 
 SELECT 
     pt.name AS pizza_name,
@@ -42,8 +36,6 @@ LIMIT 1;
 /* ---------------------------------------------------
 4️⃣ Identify the most common pizza size ordered
 ----------------------------------------------------- */
-
--- 📸 Screenshot: ../screenshots/basic_query_4_common_size.png
 
 SELECT 
     p.size AS pizza_size,
@@ -60,8 +52,6 @@ LIMIT 1;
 /* ---------------------------------------------------
 5️⃣ List the top 5 most ordered pizza types along with their quantities
 ----------------------------------------------------- */
-
--- 📸 Screenshot: ../screenshots/basic_query_5_top5_pizzas.png
 
 SELECT 
     pt.name AS pizza_type,
