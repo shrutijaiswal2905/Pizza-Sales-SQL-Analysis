@@ -1,5 +1,3 @@
--- 🍕 MySQL Pizza Sales Analysis: Basic Queries
--- Author: Shruti Jaiswal
 -- Description: Basic level queries to analyze pizza sales data
 
 /* ---------------------------------------------------
